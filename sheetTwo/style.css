@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.containerBoxSalon {
+    height: 1000px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.boxImgSalon {
+    background-image: url(./img_sheet/image\ 1.jpg);
+    width: 900px;
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.powerReserve {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #707070;
+}
+
+.boxInfoSalon {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    width: 537px;
+    height: 115px;
+}
+
+.kilometerReserve {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 79px;
+
+    color: #000000;
+}
+
+.officialPriceTwo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 79px;
+
+    color: #000000;
+}
+
+.brown {
+    width: 40px;
+    height: 40px;
+    background-color: #262626;
+    border-radius: 50%;
+    border: 50px;
+}
+
+.white {
+    width: 40px;
+    height: 40px;
+    background-color: #EFEFEF;
+border-radius: 50%;
+    
+    border: 50px;
+}
+
+.cream {
+    width: 40px;
+    height: 40px;
+    background-color: #E6DDD0;
+    border-radius: 50%;
+    border: 50px;
+}
+.boxImgColor{
+margin: 0 auto;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nuColor{
+    margin-bottom: 17px;
+    text-align: center;
+}
+.gameBox{
+    width: 130px;
+    height: 100px;
+    transform: skewY(327rad);
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 546px;
+}

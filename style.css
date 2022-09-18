@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.boss_box {
+    margin: 0 auto;
+    /* position: relative; */
+    width: 1328px;
+    height: 870px;
+}
+
+.img {
+    margin: 0px auto;
+    background-image: url(./img/download.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1040px;
+    height: 607px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.powerReserve {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #707070;
+}
+
+.kilometerReserve {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+
+    color: #000000;
+}
+
+.underTop {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 537px;
+    height: 115px;
+
+}
+
+.price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #707070;
+}
+
+.officialPrice {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+
+    color: #000000;
+
+}
+
+.underWayDown {
+    display: flex;
+    justify-content: space-between;
+    width: 970px;
+    height: 77px;
+    margin: 50px auto;
+
+}
+
+.OneInformationTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #707070;
+}
+
+
+.boxOneTool {
+    align-items: flex-end;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toolWorkingOne {
+
+    width: 22px;
+    height: 50px;
+}
+
+.WorkingOneTop {
+    width: 22px;
+    height: 22px;
+}
+
+.WorkingOneWayDown {
+    width: 22px;
+    height: 22px;
+}
+
+.twoInformationTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+}
+
+.twoInformationСhanging {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.WorkingTwoTop {
+    width: 22px;
+    height: 22px;
+}
+
+.boxcTool {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.toolWorkingTwo {
+    width: 22px;
+}
+
+.ThreeInformationTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #707070;
+}
+
+.ThreeInformationСhanging {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+
+}
+
+.toolWorkingThree {
+    margin-left: 10px;
+    width: 22px;
+}
+
+.boxThreeTool {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FourToolTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #707070;
+}
+
+.switch {
+    margin-top: 10px;
+}
+
+.FiveToolTitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+}
+
+.SixToolTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+}
+
+.OneInformationСhanging {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+
+
+}
+
+.boxDoor {
+    width: 170px;
+    height: 130px;
+    transform: skewY(47rad);
+    /* position: absolute; */
+}
+
+.containerDoor {
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    height: 200px;
+    width: 150px;
+    margin: 140px auto;
+    margin-left: 400px;
+}
+
+.boxUnder {
+    margin-top: -180px;
+}
+
+
+.containerBalonTwo {}
+
+.containerForBalon {
+    transform: 5;
+    width: 497px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 195px auto;
+    margin-left: 257px;
+    position: absolute;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.balonKey {
+    width: 90px;
+    height: 90px;
+    animation: spin 0.001s linear 0s infinite;
+}
+
+.balonKeyTwo {
+    width: 90px;
+    height: 90px;
+}
